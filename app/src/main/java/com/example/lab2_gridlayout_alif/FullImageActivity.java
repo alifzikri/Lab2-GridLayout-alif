@@ -20,6 +20,7 @@ public class FullImageActivity extends Activity {
         ImageView imageView = (ImageView) findViewById(R.id.full_image_view);
         imageView. setImageResource(imageAdapter . thumbImages[position]);
 
+        //toast
         Toast.makeText(this, "Full view image " + position, Toast.LENGTH_SHORT) .show();
     }
 }
